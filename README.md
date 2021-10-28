@@ -9,7 +9,7 @@ URL - https://bm-react-weather-app.herokuapp.com/
 
 ## Tech Stack
 
-**Client:** ReactJS | React-Bootstrap
+**Client:** ReactJS | TailwindCSS
 
 **Server:** NodeJS | ExpressJS
 
@@ -17,6 +17,6 @@ URL - https://bm-react-weather-app.herokuapp.com/
   
 ## Screenshots
 
-![App Screenshot](https://i.imgur.com/rhvJhxY.jpg)
+![App Screenshot](https://i.imgur.com/NxDVyLs.jpg)
 
   
