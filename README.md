@@ -9,11 +9,11 @@ URL - https://bm-react-weather-app.herokuapp.com/
 
 ## Tech Stack
 
-**Client:** ReactJS, React-Bootstrap
+**Client:** ReactJS | React-Bootstrap
 
-**Server:** NodeJS, ExpressJS
+**Server:** NodeJS | ExpressJS
 
-**API:** OpenWeatherMap API and MapBox API
+**API:** OpenWeatherMap API | MapBox API
   
 ## Screenshots
 
