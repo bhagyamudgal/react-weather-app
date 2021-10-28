@@ -1,13 +1,18 @@
 import React from "react";
-import { Navbar, Container } from "react-bootstrap";
 
 function Header() {
   return (
-    <Navbar bg="dark" variant="dark" className="p-3">
-      <Container>
-        <Navbar.Brand href="/">React Weather App</Navbar.Brand>
-      </Container>
-    </Navbar>
+    <div className="flex flex-col justify-center items-center p-6 bg-blue-100 bg-opacity-20 mb-6">
+      <p className="text-3xl text-blue-600 font-semibold mb-2 sm:text-5xl">
+        React Weather App
+      </p>
+      <a
+        href="https://bhagyamudgal.github.io"
+        className="text-md text-black hover:underline"
+      >
+        Developed by Bhagya Mudgal
+      </a>
+    </div>
   );
 }
 

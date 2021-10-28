@@ -18,10 +18,20 @@ async function getWeather(
     if (response.cod !== 200) {
       callback(response.message, null);
     } else {
-      const temperature = response.main.temp;
-      const percepetation = response.clouds.all;
-
-      const output = `It is currently ${temperature} degree celcius out there. There is ${percepetation}% chance of rain.`;
+      const output = {
+        weather: response.weather[0].main,
+        weather_icon: response.weather[0].icon,
+        temperature: response.main.temp,
+        temperature_min: response.main.temp_min,
+        temperature_max: response.main.temp_max,
+        percepetation: response.clouds.all,
+        pressure: response.main.pressure,
+        humidity: response.main.humidity,
+        visibility: response.main.visibility,
+        wind: response.wind.speed,
+        wind_deg: response.wind.deg,
+      };
+      // const output = response;
 
       callback(null, output);
     }
